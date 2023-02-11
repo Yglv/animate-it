@@ -1,0 +1,151 @@
+@import url(../css/zero.css);
+@import url(../css/animations.css);
+@import url(../css/modes.css);
+@font-face {
+  font-family: "Lato", sans-serif;
+  src: url(../fonts/Lato-Regular.ttf);
+  src: url(../fonts/Lato-Bold.ttf);
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.content__sun {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 40px;
+  color: yellow;
+}
+
+.content__moon {
+  visibility: hidden;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 40px;
+  color: white;
+}
+
+.content__title {
+  font-family: "Lato", sans-serif;
+  font-size: 100px;
+  text-shadow: -1px -1px #FFF, -2px -2px #FFF, -1px 1px #FFF, -2px 2px #FFF, 1px 1px #FFF, 2px 2px #FFF, 1px -1px #FFF, 2px -2px #FFF, -3px -3px 2px black, -3px 3px 2px #BBB, 3px 3px 2px #BBB, 3px -3px 2px #BBB;
+  letter-spacing: 2px;
+  color: aquamarine;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.content__subtitle {
+  font-family: "Lato", sans-serif;
+  text-shadow: 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
+  font-size: 25px;
+  color: lightgray;
+  letter-spacing: 1.5px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+.content__form {
+  max-width: 340px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__select {
+  width: 200px;
+  height: 50px;
+  font-size: 26px;
+  color: darkgrey;
+  background-color: #FFF;
+  border: 1px solid lightgrey;
+}
+
+.content__button {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  width: 120px;
+  height: 50px;
+  color: aquamarine;
+  border: 3px solid aquamarine;
+  background-color: #FFF;
+}
+
+
+.content__button:hover{
+  background-color: aquamarine;
+  color:white;
+  box-shadow: 1px 1px 5px 5px aquamarine;
+}
+
+.pulse {
+  -webkit-animation: pulsing 2s infinite;
+          animation: pulsing 2s infinite;
+}
+
+.bounce {
+  -webkit-animation: bouncing 2s infinite;
+          animation: bouncing 2s infinite;
+}
+
+.flash {
+  -webkit-animation: flashing 2s infinite;
+          animation: flashing 2s infinite;
+}
+
+.rubber {
+  -webkit-animation: rubbering 2s infinite;
+          animation: rubbering 2s infinite;
+}
+
+.shake {
+  -webkit-animation: shaking 2s infinite;
+          animation: shaking 2s infinite;
+}
+
+.swing {
+  -webkit-animation: swinging 2s infinite;
+          animation: swinging 2s infinite;
+}
+
+.wobble {
+  -webkit-animation: wobbling 2s infinite;
+          animation: wobbling 2s infinite;
+}
+
+.jello {
+  -webkit-animation: jelling 2s infinite;
+          animation: jelling 2s infinite;
+}
+
+.fadeOut {
+  -webkit-animation: fading 2s infinite;
+          animation: fading 2s infinite;
+}
+
+.flip {
+  -webkit-animation: flipping 2s infinite;
+          animation: flipping 2s infinite;
+}
+
+.rotate {
+  -webkit-animation: rotating 2s infinite;
+          animation: rotating 2s infinite;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,150 @@
+@import url(../css/zero.css);
+@import url(../css/animations.css);
+@import url(../css/modes.css);
+
+@font-face {
+  font-family: 'Lato',sans-serif;
+  src: url(../fonts/Lato-Regular.ttf);
+  src: url(../fonts/Lato-Bold.ttf);
+}
+.wrapper{
+  width: 100%;  
+  height: 100%;
+}
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.content__sun{
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 40px;
+  color:yellow;
+}
+
+.content__moon{
+  visibility: hidden;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 40px;
+  color: white;
+}
+.content__title{
+  font-family: 'Lato',sans-serif;
+  font-size: 100px;
+  text-shadow:
+    -1px -1px #FFF,
+    -2px -2px #FFF,
+    -1px 1px #FFF,
+    -2px 2px #FFF,
+    1px 1px #FFF,
+    2px 2px #FFF,
+    1px -1px #FFF,
+    2px -2px #FFF,
+    -3px -3px 2px black,
+    -3px 3px 2px #BBB,
+    3px 3px 2px #BBB,
+    3px -3px 2px #BBB;
+  letter-spacing: 2px;
+  color:aquamarine;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.content__subtitle{
+  font-family: 'Lato',sans-serif;
+  text-shadow:
+  1px 1px 0 black,
+  1px -1px 0 black,
+  -1px 1px 0 black,
+  -1px -1px 0 black;
+  font-size: 25px;
+  color: lightgray;
+  letter-spacing: 1.5px;
+  opacity: .5;
+  margin-bottom: 20px;
+}
+
+.content__form{
+  max-width: 340px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__select{
+  width: 200px;
+  height: 50px;
+  font-size: 26px;
+  color: darkgrey;
+  background-color: #FFF;
+  border: 1px solid lightgrey;
+}
+
+.content__button{
+  font-family: 'Lato',sans-serif;
+  font-size: 15px;
+  width: 120px;
+  height: 50px;
+  color: aquamarine;
+  border: 3px solid aquamarine;
+  background-color: #FFF;
+}
+
+.pulse{
+  animation: pulsing 2s infinite;
+}
+
+.bounce{
+  animation: bouncing 2s infinite;
+}
+
+.flash{
+  animation: flashing 2s infinite;
+}
+
+.rubber{
+  animation: rubbering 2s infinite;
+}
+
+.shake{
+  animation: shaking 2s infinite;
+}
+
+.swing{
+  animation: swinging 2s infinite;
+}
+
+.wobble{
+  animation: wobbling 2s infinite;
+}
+
+.jello{
+  animation: jelling 2s infinite;
+}
+
+.fadeOut{
+  animation: fading 2s infinite;
+}
+
+.flip{
+  animation: flipping 2s infinite;
+}
+
+.rotate{
+  animation: rotating 2s infinite;
+}
+

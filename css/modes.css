@@ -1,0 +1,42 @@
+.wrapper--dark{
+  background-color: darkblue;
+}
+
+.content__title--dark{
+  font-family: "Lato", sans-serif;
+  font-size: 100px;
+  letter-spacing: 2px;
+  color: yellow;
+  font-weight: bold;
+  margin-bottom: 60px;
+  text-shadow:
+    -1px -1px #FFF,
+    -2px -2px #FFF,
+    -1px 1px #FFF,
+    -2px 2px #FFF,
+    1px 1px #FFF,
+    2px 2px #FFF,
+    1px -1px #FFF,
+    2px -2px #FFF,
+    -3px -3px 2px black,
+    -3px 3px 2px black,
+    3px 3px 2px black,
+    3px -3px 2px black;
+}
+
+.content__button--dark{
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  width: 120px;
+  height: 50px;
+  color: yellow;
+  border: 3px solid yellow;
+  background-color: darkblue;
+  transition: all .25s ease-in;
+}
+
+.content__button--dark:hover{
+  background-color: yellow;
+  color:darkblue;
+  box-shadow: 1px 1px 5px 5px yellow;
+}
